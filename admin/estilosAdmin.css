@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.titLogin {
+    font-family: "Cairo", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.alertaLogin {
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+.contenedorLogin {
+    margin-top: 24px;
+}
+.botonLogin {
+    padding: 4px 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.logoIndex {
+    display: block;
+    margin: 16vh auto;
+
+}
+table{
+    width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse
+}
+th,td{
+    padding: 5px 8px;
+}
+th {
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    border-bottom: 4px solid #F44336;
+}
+td {
+    font-family: "Assistant", sans-serif;
+}
+tr:nth-child(even)
+{
+    background-color: whitesmoke;
+}
+tr:nth-child(odd){
+    background-color: #d2d2d2;
+}
+a {
+    text-decoration: none;
+    font-family: "Assistant", sans-serif;
+}
+.eliminar {
+    color: #F44336;
+}
+.modificar {
+    color: #0033cc;
+}
+.agregar {
+    color: #009900;
+}
+.titListado {
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    margin-top: 4vh;
+}
+.nuevaBanda {
+    float: left;
+    margin-top: 14px;
+    margin-left: 72px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.nuevoDisco {
+    float: left;
+    margin-top: 14px;
+    margin-left: 72px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.cerrarSesion {
+    float: right;
+    margin-right: 72px;
+    margin-top: 14px;
+    font-size: 18px;
+    color: #F44336;
+    font-weight: 700;
+}
+header {
+    height: 54px;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+}
+.alertaListado {
+    text-align: center;
+    font-family: "Assistant", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12vh;
+}
+.labelSQL {
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+}
+.inputSQL {
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 20px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+}
+.formSQL {
+   
+}
+.titSQL {
+    font-family: "Cairo", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.botonSQL {
+    padding: 4px 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.imagenSQL {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+.dividirSQL {
+    margin: 36px 0;
+}
+.botonEliminarImg {
+    margin: 24px auto;
+    display: block;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.volver {
+    padding: 16px;
+}
+.volver a{
+    font-family: "Assistant", sans-serif;
+    color: black;
+    font-size: 18px;
+}
+.volver a:hover {
+    color: #F44336;
+}

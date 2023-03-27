@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@-webkit-keyframes slider {
+    10% {margin-left: 0px;}
+    20% {margin-left: -100%;}
+    30% {margin-left: -100%;}
+    40% {margin-left: -200%;}
+    50% {margin-left: -200%;}
+    60% {margin-left: -300%;}
+    70% {margin-left: -300%;}
+    75% {margin-left: -200%;}
+    80% {margin-left: -200%;}
+    90% {margin-left: -100%;}
+    95% {margin-left: -100%;}
+    100% {margin-left: 0px;}
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(fuentes/BebasNeue-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(fuentes/BebasNeue-Regular.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(fuentes/BebasNeue-Light.ttf);
+    font-weight: 300;
+}
+body {
+    background-color: black;
+}
+#bodyAmpliacion {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.navbar-brand a {
+    color: white !important;
+    font-family: BebasNeue !important;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+.btn-outline-success {
+    color: white;
+    border-color: black;
+    background-color: black;
+    padding: 12px 18px;
+    border-radius: 0;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+}
+.btn-outline-success:hover {
+    color: white;
+    background-color: #F44336;
+    border-color: black;
+    transition: all 0.3s;
+}
+.buscadorSimple {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    margin-top: -25px;
+    left:50%;
+    margin-left: -166px;
+}
+.inicio {
+    position: relative;
+}
+.botonAmpliar {
+    color: white;
+    border-color: #F44336;
+    background-color: #F44336;
+    padding: 4px 12px;
+    border-radius: 0;
+    margin-top: 12px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+}
+.botonAmpliar:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: all 0.3s;
+}
+.form-control {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 20px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+}
+.row {
+    padding-top: 32px;
+}
+.titPrincipal {
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 900;
+    font-size: 42px;
+    color: white;
+}
+.descripcionPrincipal {
+    font-family: "Assistant", sans-serif !important;
+    color: white;
+}
+.imagenIdioma {
+    filter: sepia(0%);
+}
+.imagenIdioma:hover {
+    filter: sepia(100%);
+    transition: all 0.5s;
+}
+.titIdiomas {
+    position: absolute;
+    z-index: 99;
+    color: white;
+    right: 24px;
+    top: 12px;
+    font-family: BebasNeue !important;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+.dividirRandom {
+    height: 2px;
+    background-color: white;
+    margin-top: 48px;
+}
+footer {
+    background-color: #d2d2d2;
+    margin-top: 104px;
+}
+.footerAmpliacion {
+    margin-top: 40px !important;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+}
+footer div img {
+    margin-right: 24px;
+}
+.cajaIdiomas {
+    margin-top: 72px;
+}
+.titFiltros {
+    margin-top: 32px;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.dividirFiltros {
+    height: 1px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+.imagenLogos {
+    width: 50%;
+}
+.cajaLogos {
+    text-align: center;
+    margin-top: 24px;
+    overflow: hidden;
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+}
+.cajaLogos:hover {
+    -webkit-transform:scale(1);transform:scale(1);
+}
+.contenedorInput {
+    color: white;
+    padding: 4px 0;
+    font-family: "Assistant", sans-serif;
+    font-size: 16px;
+}
+.contenedorGenero {
+    color: white;
+    padding: 4px 0;
+    font-family: "Assistant", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.inputFiltros {
+    margin-right: 4px;
+}
+.selectPais {
+    padding: 2px 4px;
+    width: 100%;
+    margin-top: 4px;
+    font-family: "Assistant", sans-serif;
+}
+.botonBuscar {
+    color: white;
+    border-color: #F44336;
+    background-color: #F44336;
+    padding: 4px 16px;
+    border-radius: 0;
+    margin-top: 12px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    margin-top: 48px;
+}
+.botonBuscar:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: all 0.3s;
+}
+.logoRandom {
+    opacity: 0.7;
+    overflow: hidden;
+    display: block;
+    margin: 16px auto;
+}
+.logoRandom:hover {
+    opacity: 1;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+.nombreBanda {
+    text-decoration: none;
+    color: #F44336;
+    font-family: "Cairo", sans-serif;
+}
+.nombreBanda:hover {
+    text-decoration: none;
+    color: white;
+}
+.contenedor {
+    width: 80vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+li img {
+    float: left;
+    width: 20vw;
+    margin-right: 48px;
+}
+.slider li {
+    float: left;
+    width: 100vw;
+    list-style: none;
+}
+.sliderJuntos {
+    height: 400px;
+    width: 100vw;
+    overflow: hidden;
+}
+li h1 {
+    color: white;
+    padding-left: 24px;
+    font-family: "Cairo", sans-serif;
+    margin-bottom: 24px;
+}
+li p {
+    color: white;
+    padding-left: 24px;
+    font-family: "Assistant", sans-serif;
+}
+.slider {
+    list-style: none;
+    width: 400vw;
+    animation: slider 40s infinite;
+    -moz-animation: slider 40s infinite;
+    -webkit-animation: slider 40s infinite;
+    animation-play-state: running;
+    -moz-animation-play-state: running;
+    -webkit-animation-play-state: running;
+}
+.datosBanda {
+    color: white;
+    margin-top: 40px;
+}
+.datosBanda h1 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+}
+.datosBanda p {
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+}
+.dividirTitulo {
+    background-color: white;
+    height: 1px;
+    width: 80%;
+    margin-bottom: 24px;
+}
+.imagenBanda {
+    margin-top: 32px;
+}
+.discografia {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 32px 0;
+    letter-spacing: 3px;
+    font-size: 48px;
+    font-weight: 400;
+}
+.dividirDiscografia1 {
+    height: 1px;
+    background-color: white;
+    margin-top: 64px;
+}
+.dividirDiscografia2 {
+    height: 1px;
+    background-color: white;
+    margin-bottom: 96px;
+}
+.titRelacionadas {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+.logosRelacionados {
+    margin: 16px 16px 0 16px;
+    opacity: 0.7;
+}
+.logosRelacionados:hover {
+    opacity: 1;
+}
+.contenedorRelacionados {
+    text-align: center;
+}
+.contacto {
+    color: white;
+    font-family: "Assistant", sans-serif;
+}
+.formContacto {
+    margin-top: 10vh;
+}
+.inputContacto {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 20px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    resize: none;
+}
+.generoContacto {
+    padding: 4px 12px;
+    width: 100%;
+}
+.botonEnviar {
+    background-color: #F44336;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 4px 16px;
+    margin-top: 8px;
+}
+.botonEnviar:hover {
+    background-color: white;
+    color: black;
+}
+.cajaGeneroContacto {
+    margin-top: 16px;
+}
