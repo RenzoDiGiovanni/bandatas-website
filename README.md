@@ -1,2 +1,2 @@
 # bandatas-website
-Desarrollo web Frontend y Backend con HTML, CSS y PHP sobre bandas de música.
+Desarrollo web Frontend y Backend con HTML, CSS, PHP y MySql sobre bandas de música.
